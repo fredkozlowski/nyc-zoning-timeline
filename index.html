@@ -4,131 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zoning Resolution Amendments Graph (1960-2024)</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
     <style>
-        .graph-container {
-            display: flex;
-            align-items: stretch;
+        body {
             font-family: Arial, sans-serif;
-        }
-        .y-axis {
-            display: grid;
-            grid-template-rows: repeat(12, 1fr);
-            height: 144px;
-            margin-right: 10px;
-            margin-top: 4px;
-            font-size: 12px;
-        }
-        .y-axis span {
+            margin: 0;
+            padding: 20px;
             display: flex;
+            justify-content: center;
             align-items: center;
-            padding-right: 5px;
+            min-height: 100vh;
         }
-        .graph {
-            display: inline-grid;
-            grid-template-columns: repeat(65, auto);
-            grid-gap: 1px;
-            background-color: #e1e4e8;
-            padding: 1px;
-            overflow-x: auto;
-            height: 144px;
+        .graph-container {
+            width: 800px;
+            height: 400px;
         }
-        .year {
-            display: grid;
-            grid-template-rows: repeat(12, 1fr);
-            grid-gap: 1px;
-            height: 100%;
+        .bar {
+            fill: #4CAF50;
         }
-        .month {
-            width: 10px;
-            height: 10px;
+        .bar:hover {
+            fill: #45a049;
         }
-        .month-0 { background-color: #ebedf0; }
-        .month-1 { background-color: #9be9a8; }
-        .month-2 { background-color: #40c463; }
-        .month-3 { background-color: #30a14e; }
-        .month-4 { background-color: #216e39; }
-        .x-axis {
-            display: flex;
-            justify-content: space-between;
-            margin-left: -10px;
-            margin-right: 37px;
-            margin-top: 5px;
-            font-size: 12px;
+        .axis {
+            font-size: 14px;
+        }
+        .axis-label {
+            font-size: 16px;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <h2>Zoning Resolution Amendments Graph (1960-2024)</h2>
     <div class="graph-container">
-        <div class="y-axis">
-            <span>Dec</span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span>Jul</span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span>Jan</span>
-        </div>
-        <div>
-            <div class="graph">
-                <!-- Year columns will be generated here -->
-            </div>
-            <div class="x-axis">
-                <span>1960</span>
-                <span>1970</span>
-                <span>1980</span>
-                <span>1990</span>
-                <span>2000</span>
-                <span>2010</span>
-                <span>2020</span>
-            </div>
-        </div>
+        <h2>Zoning Resolution Amendments Graph (1960-2024)</h2>
+        <div id="graph"></div>
     </div>
+
     <script>
-        async function fetchAmendments() {
-            try {
-                const response = await fetch('amendments.json');
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return await response.json();
-            } catch (error) {
-                console.error('Error fetching amendments:', error);
-                return {};
-            }
-        }
+        // Fetch the data from amendments.json
+        fetch('amendments.json')
+            .then(response => response.json())
+            .then(data => {
+                const amendments = Object.entries(data).map(([key, value]) => ({
+                    year: parseInt(key.split('-')[0]),
+                    count: value.count
+                }));
 
-        async function generateGraph() {
-            const amendments = await fetchAmendments();
-            const graph = document.querySelector('.graph');
-            const currentYear = new Date().getFullYear();
-            const startYear = 1960;
-            for (let year = startYear; year <= currentYear; year++) {
-                const yearColumn = document.createElement('div');
-                yearColumn.className = 'year';
-                for (let month = 12; month >= 1; month--) {
-                    const monthCell = document.createElement('div');
-                    const key = `${year}-${month.toString().padStart(2, '0')}`;
-                    console.log(key)
-                    console.log(amendments[key])
-                    console.log(amendments)
-                    const count = amendments[key] ? amendments[key].count : 0;
-                    console.log(count)
-                    const colorClass = `month-${Math.min(count, 4)}`;
-                    monthCell.className = `month ${colorClass}`;
-                    monthCell.title = `${year}-${month}: ${count} amendment${count !== 1 ? 's' : ''}`;
-                    yearColumn.appendChild(monthCell);
-                }
-                graph.appendChild(yearColumn);
-            }
-        }
+                const decadeData = d3.rollup(
+                    amendments,
+                    v => d3.sum(v, d => d.count),
+                    d => Math.floor(d.year / 10) * 10
+                );
 
-        generateGraph();
+                const sortedData = Array.from(decadeData).sort((a, b) => a[0] - b[0]);
+
+                const margin = {top: 20, right: 20, bottom: 60, left: 60};
+                const width = 800 - margin.left - margin.right;
+                const height = 400 - margin.top - margin.bottom;
+
+                const svg = d3.select("#graph")
+                    .append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform", `translate(${margin.left},${margin.top})`);
+
+                const x = d3.scaleBand()
+                    .range([0, width])
+                    .padding(0.1);
+
+                const y = d3.scaleLinear()
+                    .range([height, 0]);
+
+                x.domain(sortedData.map(d => d[0]));
+                y.domain([0, d3.max(sortedData, d => d[1])]);
+
+                svg.selectAll(".bar")
+                    .data(sortedData)
+                    .enter().append("rect")
+                    .attr("class", "bar")
+                    .attr("x", d => x(d[0]))
+                    .attr("width", x.bandwidth())
+                    .attr("y", d => y(d[1]))
+                    .attr("height", d => height - y(d[1]));
+
+                svg.append("g")
+                    .attr("class", "axis")
+                    .attr("transform", `translate(0,${height})`)
+                    .call(d3.axisBottom(x))
+                    .append("text")
+                    .attr("class", "axis-label")
+                    .attr("x", width / 2)
+                    .attr("y", 40)
+                    .attr("text-anchor", "middle")
+                    .text("Decade");
+
+                svg.append("g")
+                    .attr("class", "axis")
+                    .call(d3.axisLeft(y))
+                    .append("text")
+                    .attr("class", "axis-label")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", -40)
+                    .attr("x", -height / 2)
+                    .attr("text-anchor", "middle")
+                    .text("Number of Amendments");
+            });
     </script>
 </body>
 </html>
