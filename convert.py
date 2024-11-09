@@ -4,7 +4,7 @@ from datetime import datetime
 import json
 
 def parse_input(input_text):
-    sections = re.split(r'\n(?=\d{2}-\d{2,3})', input_text.strip())
+    sections = re.split(r'\n(?=\d{2,3}-\d{2,3})', input_text.strip())
     data = []
     
     for section in sections:
