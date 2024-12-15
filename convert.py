@@ -94,6 +94,16 @@ def group_by_month(data):
         grouped[year_month]["count"] += 1
     return dict(grouped)
 
+def write_js_file(data, filename):
+    """Write data as a JavaScript module file."""
+    with open(filename, 'w') as file:
+        # Write the export statement
+        file.write('export const AMENDMENTS_DATA = ')
+        # Write the data as JSON
+        json.dump(data, file, indent=2)
+        # Add a semicolon at the end (optional but good practice)
+        file.write(';')
+
 def main():
     # Read input from all_outputs.txt
     with open('all_outputs.txt', 'r') as file:
@@ -102,9 +112,8 @@ def main():
     parsed_data = parse_input(input_text)
     grouped_data = group_by_month(parsed_data)
     
-    # Write output to amendments.json
-    with open('amendments.json', 'w') as file:
-        json.dump(grouped_data, file, indent=2)
+    # Write output to amendments.js instead of amendments.json
+    write_js_file(grouped_data, 'amendments.js')
 
 if __name__ == "__main__":
     main()
