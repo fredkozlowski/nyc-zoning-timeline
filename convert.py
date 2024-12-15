@@ -25,6 +25,8 @@ def parse_input(input_text):
                 title_parts.append(line)
         
         title = '\n'.join(title_parts).split(' - ', 1)[-1].strip()
+        print(title)
+        print(data)
         if title and date:
             data.append({"title": title, "date": date})
     
