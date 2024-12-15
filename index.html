@@ -25,6 +25,15 @@
             box-sizing: border-box;
         }
 
+        .amendments-list a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        .amendments-list a:hover {
+            text-decoration: underline;
+        }
+
         .house-icon {
             margin-top: 3px;
             margin-right: 10px;
@@ -313,7 +322,7 @@
     </div>
 
     <script type="module">
-        import { AMENDMENTS_DATA } from './amendments-data.js';
+        import { AMENDMENTS_DATA } from './amendments.js';
         
         let amendments = AMENDMENTS_DATA;
 
@@ -439,7 +448,18 @@
             if (items.length > 0) {
                 items.forEach(item => {
                     const li = document.createElement('li');
-                    li.textContent = `${item.date}: ${item.title}`;
+                    if (item.url) {
+                        // Create link if URL exists
+                        const link = document.createElement('a');
+                        link.href = item.url;
+                        link.target = "_blank"; // Open in new tab
+                        link.textContent = item.title;
+                        li.appendChild(document.createTextNode(`${item.date}: `));
+                        li.appendChild(link);
+                    } else {
+                        // Fallback if no URL exists
+                        li.textContent = `${item.date}: ${item.title}`;
+                    }
                     list.appendChild(li);
                 });
             } else {
