@@ -53,6 +53,47 @@
             height: 400px; /* Fixed height container */
             display: flex;
             flex-direction: column;
+            position: relative;
+        }
+
+        .scroll-indicator {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: opacity 0.3s ease;
+            z-index: 10;
+        }
+
+        .scroll-indicator svg {
+            width: 24px;
+            height: 24px;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-5px);
+            }
+            60% {
+                transform: translateY(-3px);
+            }
+        }
+
+        .scroll-indicator.hidden {
+            opacity: 0;
+            pointer-events: none;
         }
 
         .amendments-header {
@@ -317,6 +358,12 @@
                     <span id="amendmentCount" class="amendment-count"></span>
                 </div>
                 <div class="amendments-list" id="amendmentsList"></div>
+                <div class="scroll-indicator" id="scrollIndicator">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 13l5 5 5-5"></path>
+                        <path d="M7 6l5 5 5-5"></path>
+                    </svg>
+                </div>
             </div>
         </div>
     </div>
@@ -335,13 +382,40 @@
                 if (defaultCell) {
                     selectMonth(defaultCell);
                 }
+
+                // Add scroll indicator functionality
+                const amendmentsList = document.getElementById('amendmentsList');
+                const scrollIndicator = document.getElementById('scrollIndicator');
+
+                // Show/hide scroll indicator based on scroll position
+                amendmentsList.addEventListener('scroll', () => {
+                    if (amendmentsList.scrollTop > 100) {
+                        scrollIndicator.classList.add('hidden');
+                    } else {
+                        scrollIndicator.classList.remove('hidden');
+                    }
+                });
+
+                // Scroll down when indicator is clicked
+                scrollIndicator.addEventListener('click', () => {
+                    amendmentsList.scrollBy({
+                        top: 100,
+                        behavior: 'smooth'
+                    });
+                });
+
+                // Initial check for scroll possibility
+                setTimeout(() => {
+                    if (amendmentsList.scrollHeight <= amendmentsList.clientHeight) {
+                        scrollIndicator.classList.add('hidden');
+                    }
+                }, 100);
             } catch (error) {
                 console.error('Error loading amendments:', error);
                 document.getElementById('amendmentsList').innerHTML = 
                     '<p>Error loading amendments data. Please try again later.</p>';
             }
         }
-
         function getColorClass(count) {
             if (count === 0) return 'month-0';
             
