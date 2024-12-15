@@ -4,9 +4,9 @@ The Python script extracts titles and last amended dates from multiple PDF files
 
 ## Features
 
-- Processes multiple PDF files in a batch (Article01.pdf to Article14.pdf)
+- Processes multiple PDF files in a batch (Article01.pdf to Article14.pdf). For now I just download these manually from [the NYC zoning resolution site](https://zoningresolution.planning.nyc.gov) and rename them to use Arabic numerals
 - Extracts titles and last amended dates using regular expressions
-- Identifies font information (StoneSansBold or not). This can be used for validation
+- Identifies font information (StoneSansBold or not). This can be used for validation since the titles are always in that font, whereas the text is not
 - Provides page numbers for each extracted title
 - Generates two output files: one for results and one for debugging information
 
@@ -24,25 +24,29 @@ The Python script extracts titles and last amended dates from multiple PDF files
    pip install pdfplumber
    ```
 
-3. Download the `extract.py` script to your local machine.
+3. Download the repository to your local machine.
 
 ## Usage
 
-1. Place the `extract.py` script in the same directory as your PDF files (Article01.pdf through Article14.pdf).
+1. Place the scripts in the same directory as your PDF files (Article01.pdf through Article14.pdf).
 
 2. Open a terminal or command prompt and navigate to the directory containing the script and PDF files.
 
 3. Run the script using Python:
 
    ```
-   python pdf_title_extractor.py
+   python extract.py
+   python convert.py
    ```
 
-4. The script will process all available PDF files from Article01.pdf to Article14.pdf. It will skip any files that are not found.
+4. The scripts will process all available PDF files from Article01.pdf to Article14.pdf. It will skip any files that are not found.
 
 5. After processing, check the following output files:
    - `all_outputs.txt`: Contains the extracted titles and dates from all PDFs.
    - `all_debug_outputs.txt`: Contains debugging information for all PDFs.
+   - `amendments.js`: The extracted information formatted for web display 
+
+6. You can run the website locally using `python -m http.server 8080`. It should be accessible at localhost:8080.
 
 ## Output Format
 
@@ -60,6 +64,21 @@ Results for Article02.pdf:
 ```
 
 The `all_debug_outputs.txt` file will contain more detailed information about each extraction, including cases where titles were found without dates.
+
+`amendments.js` is in the following format, for web display:
+
+```
+export const AMENDMENTS_DATA = {
+  "1961-12": {
+    "items": [
+      {
+        "title": "TITLE",
+        "date": "1961-12-15",
+        "url": "https://zoningresolution.planning.nyc.gov/article-i/chapter-1/11-00",
+        "section_id": "11-00"
+      },
+...
+```
 
 ## Customization
 
