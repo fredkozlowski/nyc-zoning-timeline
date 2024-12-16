@@ -91,6 +91,11 @@ export const AMENDMENTS_DATA = {
 - Note that when you download the files from the NY Zoning Code website, the files are numbered with Roman numerals. They'll need to be renumbered before using this script.
 - For any issues related to PDF reading, make sure you have the latest version of the pdfplumber library installed.
 
+## To Do 
+
+- Pre-generate the HTML graph to reduce load time. Currently the JS loop that generates the graph takes a bit of time upon load.
+- Add a legend to the color shades since the color:count mapping is on a log scale.
+
 ## License
 
 This script is provided "as is", without warranty of any kind. You are free to modify and distribute it as needed.
