@@ -9,34 +9,37 @@ def extract_titles_and_dates(pdf_path, output_path):
         results = []
         debug_info = []
         
-        for page_num, page in enumerate(pdf.pages, start=1):
-            page_text = page.extract_text()
-            matches = re.finditer(title_pattern, page_text, re.IGNORECASE)
+        # Extract text from all pages at once
+        full_text = '\n'.join(page.extract_text() for page in pdf.pages)
+        # Get all words with fonts from all pages
+        all_words = []
+        for page in pdf.pages:
+            all_words.extend(page.extract_words(keep_blank_chars=True, use_text_flow=True, extra_attrs=['fontname']))
+        
+        matches = re.finditer(title_pattern, full_text, re.IGNORECASE)
+        
+        for match in matches:
+            title = match.group(1).strip()
+            date = match.group(2)
             
-            for match in matches:
-                title = match.group(1).strip()
-                date = match.group(2)
-                
-                words_with_fonts = page.extract_words(keep_blank_chars=True, use_text_flow=True, extra_attrs=['fontname'])
-                matching_words = [word for word in words_with_fonts if title[:2] in word['text']]
-                
-                is_stone_sans_bold = any('StoneSansBold' in word['fontname'] for word in matching_words)
-                
-                if not date:
-                    last_amended_match = re.search(r'LAST\s*AMENDED\s*(\d{1,2}/\d{1,2}/\d{4})', 
-                                                   page_text[match.end():match.end()+200], 
-                                                   re.IGNORECASE | re.DOTALL)
-                    if last_amended_match:
-                        date = last_amended_match.group(1)
-                
-                font_info = "StoneSansBold" if is_stone_sans_bold else "Not StoneSansBold"
-                
-                if date:
-                    results.append(f"{title}\nLAST AMENDED {date}\nFound on page {page_num}\nFont: {font_info}\n")
-                    debug_info.append(f"Found: {title} - {date} - Page {page_num} - Font: {font_info}")
-                else:
-                    results.append(f"{title}\nFound on page {page_num}\nFont: {font_info}\n")
-                    debug_info.append(f"Title found without date: {title} - Page {page_num} - Font: {font_info}")
+            matching_words = [word for word in all_words if title[:2] in word['text']]
+            is_stone_sans_bold = any('StoneSansBold' in word['fontname'] for word in matching_words)
+            
+            if not date:
+                last_amended_match = re.search(r'LAST\s*AMENDED\s*(\d{1,2}/\d{1,2}/\d{4})', 
+                                               full_text[match.end():match.end()+200], 
+                                               re.IGNORECASE | re.DOTALL)
+                if last_amended_match:
+                    date = last_amended_match.group(1)
+            
+            font_info = "StoneSansBold" if is_stone_sans_bold else "Not StoneSansBold"
+            
+            if date:
+                results.append(f"{title}\nLAST AMENDED {date}\nFont: {font_info}\n")
+                debug_info.append(f"Found: {title} - {date} - Font: {font_info}")
+            else:
+                results.append(f"{title}\nFont: {font_info}\n")
+                debug_info.append(f"Title found without date: {title} - Font: {font_info}")
     
     return results, debug_info
 
