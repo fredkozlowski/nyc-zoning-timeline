@@ -95,6 +95,7 @@ export const AMENDMENTS_DATA = {
 
 - Pre-generate the HTML graph to reduce load time. Currently the JS loop that generates the graph takes a bit of time upon load.
 - Add a legend to the color shades since the color:count mapping is on a log scale.
+- Make the links go to the full zoning article page rather than the section link
 
 ## License
 
