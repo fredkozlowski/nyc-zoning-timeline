@@ -48,7 +48,7 @@ def process_multiple_pdfs(start_num, end_num):
     all_debug_info = []
     
     for i in range(start_num, end_num + 1):
-        pdf_path = f'Article{i:02d}.pdf'
+        pdf_path = f'pdfs/Article{i:02d}.pdf'
         if os.path.exists(pdf_path):
             print(f"Processing {pdf_path}...")
             results, debug_info = extract_titles_and_dates(pdf_path, '')
