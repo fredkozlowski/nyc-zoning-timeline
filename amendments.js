@@ -3365,12 +3365,6 @@ export const AMENDMENTS_DATA = {
         "section_id": "15-13"
       },
       {
-        "title": "Residential Conversion in C6-1G, C6-2G, C6-2M, C6-4M, M1-5M and M1-6M Districts",
-        "date": "2024-06-06",
-        "url": "https://zoningresolution.planning.nyc.gov/article-i/chapter-5/15-51",
-        "section_id": "15-51"
-      },
-      {
         "title": "Enclosure, Surfacing and Screening Requirements",
         "date": "2024-06-06",
         "url": "https://zoningresolution.planning.nyc.gov/article-i/chapter-6/16-22",
@@ -3689,7 +3683,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "32-165"
       },
       {
-        "title": "Use Group VI \u2013 additional provisions for parking requirement category",
+        "title": "Use Group VI \u2013 additional provisions for parking requirement category\n\u25a0",
         "date": "2024-06-06",
         "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-2/32-166",
         "section_id": "32-166"
@@ -3869,7 +3863,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "32-321"
       },
       {
-        "title": "Alternate ground floor level regulations for certain frontages",
+        "title": "Alternate ground floor level regulations for certain frontages\n\u25a0",
         "date": "2024-06-06",
         "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-2/32-322",
         "section_id": "32-322"
@@ -4065,12 +4059,6 @@ export const AMENDMENTS_DATA = {
         "date": "2024-06-06",
         "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-3/33-473",
         "section_id": "33-473"
-      },
-      {
-        "title": "Special provisions for certain community facility uses",
-        "date": "2024-06-06",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-5/35-012",
-        "section_id": "35-012"
       },
       {
         "title": "General Provisions",
@@ -4989,12 +4977,6 @@ export const AMENDMENTS_DATA = {
         "date": "2024-06-06",
         "url": "https://zoningresolution.planning.nyc.gov/article-iv/chapter-3/43-14",
         "section_id": "43-14"
-      },
-      {
-        "title": "Use Group IV \u2013 uses subject to open use allowances",
-        "date": "2024-06-06",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iv/chapter-3/43-144",
-        "section_id": "43-144"
       },
       {
         "title": "Minimum rear yards for Manufacturing Districts with an A suffix",
@@ -7919,7 +7901,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "144-57"
       }
     ],
-    "count": 774
+    "count": 771
   },
   "2024-12": {
     "items": [
@@ -7954,7 +7936,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "11-47"
       },
       {
-        "title": "DEFINITIONS",
+        "title": "DEFINITIONS\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-i/chapter-2/12-10",
         "section_id": "12-10"
@@ -8080,7 +8062,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "15-111"
       },
       {
-        "title": "Required Recreation Space",
+        "title": "Required Recreation Space\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-i/chapter-5/15-12",
         "section_id": "15-12"
@@ -8434,7 +8416,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "23-20"
       },
       {
-        "title": "Floor Area Regulations for R1 Through R5 Districts",
+        "title": "Floor Area Regulations for R1 Through R5 Districts\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-3/23-21",
         "section_id": "23-21"
@@ -8506,7 +8488,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "23-30"
       },
       {
-        "title": "General Provisions",
+        "title": "General Provisions\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-3/23-31",
         "section_id": "23-31"
@@ -8650,7 +8632,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "23-362"
       },
       {
-        "title": "Special lot coverage provisions for certain interior or through lots",
+        "title": "Special rules for certain interior or through lots",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-3/23-363",
         "section_id": "23-363"
@@ -9616,7 +9598,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "25-36"
       },
       {
-        "title": "Waiver for Mixed-Use Developments",
+        "title": "Waiver for Mixed-Use Developments\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-5/25-37",
         "section_id": "25-37"
@@ -10630,7 +10612,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "35-61"
       },
       {
-        "title": "Height and Setback Requirements in Commercial Districts with R1 Through R5\nEquivalency",
+        "title": "Height and Setback Requirements in Commercial Districts With R1 Through R5\nEquivalency",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-5/35-62",
         "section_id": "35-62"
@@ -10780,7 +10762,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "36-25"
       },
       {
-        "title": "Waiver for Mixed-use Developments",
+        "title": "Waiver for Mixed-use Developments\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-6/36-26",
         "section_id": "36-26"
@@ -14080,7 +14062,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "123-651"
       },
       {
-        "title": "All buildings in Special Mixed Use Districts with R6, R7, R8, R9 and R10 District\ndesignations",
+        "title": "Special base and building heights",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-3/123-652",
         "section_id": "123-652"
@@ -14644,7 +14626,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "138-043"
       },
       {
-        "title": "Special floor area regulations\n\u2020",
+        "title": "Special floor area regulations",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-xiii/chapter-8/138-211",
         "section_id": "138-211"
@@ -14674,7 +14656,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "138-40"
       },
       {
-        "title": "Special Permit for Accessory Off-street Commercial Loading Spaces\n\u2020",
+        "title": "Special Permit for Accessory Off-street Commercial Loading Spaces",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-xiii/chapter-8/138-41",
         "section_id": "138-41"
@@ -15144,84 +15126,6 @@ export const AMENDMENTS_DATA = {
         "section_id": "24-521"
       },
       {
-        "title": "GENERAL PURPOSES",
-        "date": "2016-03-22",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-8/28-00",
-        "section_id": "28-00"
-      },
-      {
-        "title": "Definitions",
-        "date": "2016-03-22",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-8/28-02",
-        "section_id": "28-02"
-      },
-      {
-        "title": "Quality Housing Program Elements",
-        "date": "2016-03-22",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-8/28-03",
-        "section_id": "28-03"
-      },
-      {
-        "title": "BUILDING INTERIOR",
-        "date": "2016-03-22",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-8/28-10",
-        "section_id": "28-10"
-      },
-      {
-        "title": "RECREATION SPACE AND PLANTING AREAS",
-        "date": "2016-03-22",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-8/28-20",
-        "section_id": "28-20"
-      },
-      {
-        "title": "Standards for Recreation Space",
-        "date": "2016-03-22",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-8/28-22",
-        "section_id": "28-22"
-      },
-      {
-        "title": "Planting Areas",
-        "date": "2016-03-22",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-8/28-23",
-        "section_id": "28-23"
-      },
-      {
-        "title": "SAFETY AND SECURITY",
-        "date": "2016-03-22",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-8/28-30",
-        "section_id": "28-30"
-      },
-      {
-        "title": "PARKING FOR QUALITY HOUSING",
-        "date": "2016-03-22",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-8/28-40",
-        "section_id": "28-40"
-      },
-      {
-        "title": "Screening",
-        "date": "2016-03-22",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-8/28-41",
-        "section_id": "28-41"
-      },
-      {
-        "title": "Special Regulations for Off-site Accessory Parking",
-        "date": "2016-03-22",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-8/28-42",
-        "section_id": "28-42"
-      },
-      {
-        "title": "Location of Accessory Parking",
-        "date": "2016-03-22",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-8/28-43",
-        "section_id": "28-43"
-      },
-      {
-        "title": "Quality Housing Program",
-        "date": "2016-03-22",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-5/35-011",
-        "section_id": "35-011"
-      },
-      {
         "title": "MODIFICATION OF YARD REGULATIONS",
         "date": "2016-03-22",
         "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-5/35-50",
@@ -15270,7 +15174,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "101-531"
       }
     ],
-    "count": 25
+    "count": 12
   },
   "1994-06": {
     "items": [
@@ -16075,311 +15979,6 @@ export const AMENDMENTS_DATA = {
     ],
     "count": 7
   },
-  "2007-10": {
-    "items": [
-      {
-        "title": "SPECIAL PERMIT",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-i/chapter-5/15-50",
-        "section_id": "15-50"
-      },
-      {
-        "title": "Arcades",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-6/26-141",
-        "section_id": "26-141"
-      },
-      {
-        "title": "Existing public amenities for which floor area bonuses have been received",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-3/33-124",
-        "section_id": "33-124"
-      },
-      {
-        "title": "Floor Area Bonus for Front Yards",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-3/33-15",
-        "section_id": "33-15"
-      },
-      {
-        "title": "In certain other Commercial Districts",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-3/33-152",
-        "section_id": "33-152"
-      },
-      {
-        "title": "Special Provisions for Zoning Lots Divided by District Boundaries",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-3/33-16",
-        "section_id": "33-16"
-      },
-      {
-        "title": "Existing public amenities for which floor area bonuses have been received",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-4/34-113",
-        "section_id": "34-113"
-      },
-      {
-        "title": "Standards for Location, Design and Hours of Public Accessibility",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-41",
-        "section_id": "37-41"
-      },
-      {
-        "title": "Waiver of Requirements",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-44",
-        "section_id": "37-44"
-      },
-      {
-        "title": "REQUIREMENTS FOR PEDESTRIAN CIRCULATION SPACE",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-50",
-        "section_id": "37-50"
-      },
-      {
-        "title": "Modification of Design Standards of Pedestrian Circulation Spaces Within Existing\nBuildings",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-54",
-        "section_id": "37-54"
-      },
-      {
-        "title": "PUBLICLY ACCESSIBLE OPEN AREAS EXISTING PRIOR TO OCTOBER 17, 2007",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-60",
-        "section_id": "37-60"
-      },
-      {
-        "title": "Changes to Existing Publicly Accessible Open Areas",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-62",
-        "section_id": "37-62"
-      },
-      {
-        "title": "Elimination or reduction in size of non-bonused open area",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-621",
-        "section_id": "37-621"
-      },
-      {
-        "title": "Elimination or reduction in size of bonused open area",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-622",
-        "section_id": "37-622"
-      },
-      {
-        "title": "Nighttime closings",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-623",
-        "section_id": "37-623"
-      },
-      {
-        "title": "Kiosks and open air cafes",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-624",
-        "section_id": "37-624"
-      },
-      {
-        "title": "PUBLIC PLAZAS",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-70",
-        "section_id": "37-70"
-      },
-      {
-        "title": "Basic Design Criteria",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-71",
-        "section_id": "37-71"
-      },
-      {
-        "title": "Definitions",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-711",
-        "section_id": "37-711"
-      },
-      {
-        "title": "Restrictions on orientation",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-714",
-        "section_id": "37-714"
-      },
-      {
-        "title": "Requirements for major portions of public plazas",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-715",
-        "section_id": "37-715"
-      },
-      {
-        "title": "Requirements for minor portions of public plazas",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-716",
-        "section_id": "37-716"
-      },
-      {
-        "title": "Regulations for through block public plazas",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-717",
-        "section_id": "37-717"
-      },
-      {
-        "title": "Paving",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-718",
-        "section_id": "37-718"
-      },
-      {
-        "title": "Access and Circulation",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-72",
-        "section_id": "37-72"
-      },
-      {
-        "title": "Level of plaza",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-722",
-        "section_id": "37-722"
-      },
-      {
-        "title": "Circulation paths",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-723",
-        "section_id": "37-723"
-      },
-      {
-        "title": "Steps",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-725",
-        "section_id": "37-725"
-      },
-      {
-        "title": "Hours of access",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-727",
-        "section_id": "37-727"
-      },
-      {
-        "title": "Amenities",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-74",
-        "section_id": "37-74"
-      },
-      {
-        "title": "Litter receptacles",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-744",
-        "section_id": "37-744"
-      },
-      {
-        "title": "Bicycle parking",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-745",
-        "section_id": "37-745"
-      },
-      {
-        "title": "Drinking fountains",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-746",
-        "section_id": "37-746"
-      },
-      {
-        "title": "Public space signage",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-747",
-        "section_id": "37-747"
-      },
-      {
-        "title": "Additional amenities",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-748",
-        "section_id": "37-748"
-      },
-      {
-        "title": "Signs",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-75",
-        "section_id": "37-75"
-      },
-      {
-        "title": "Prohibition signs",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-752",
-        "section_id": "37-752"
-      },
-      {
-        "title": "Existing Public Amenities for which Floor Area Bonuses Have Been Received",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iv/chapter-3/43-15",
-        "section_id": "43-15"
-      },
-      {
-        "title": "Additional Floor Space of Public Parking Garages",
-        "date": "2007-10-29",
-        "url": "https://zoningresolution.planning.nyc.gov/article-vii/chapter-3/73-67",
-        "section_id": "73-67"
-      },
-      {
-        "title": "Elimination or reduction in size of bonused public amenities",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-vii/chapter-4/74-761",
-        "section_id": "74-761"
-      },
-      {
-        "title": "Existing plazas or other public amenities",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-231",
-        "section_id": "81-231"
-      },
-      {
-        "title": "Special provisions for zoning lots divided by district boundaries",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-232",
-        "section_id": "81-232"
-      },
-      {
-        "title": "Provisions for persons with disabilities",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-413",
-        "section_id": "81-413"
-      },
-      {
-        "title": "Retention of floor area bonus for plazas or other public spaces",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-542",
-        "section_id": "81-542"
-      },
-      {
-        "title": "General Provisions",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-81",
-        "section_id": "81-81"
-      },
-      {
-        "title": "Mandatory Off-street Relocation of a Subway Stair",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-2/82-12",
-        "section_id": "82-12"
-      },
-      {
-        "title": "Open Area Requirements in the Large-Scale Plan Subdistrict A",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-66",
-        "section_id": "93-66"
-      },
-      {
-        "title": "Modification of Rear Yard Regulations",
-        "date": "2007-10-29",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xi/chapter-5/115-22",
-        "section_id": "115-22"
-      },
-      {
-        "title": "Special Permit for Bulk Modifications on Blocks 86/72 and 403",
-        "date": "2007-10-17",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xi/chapter-7/117-56",
-        "section_id": "117-56"
-      }
-    ],
-    "count": 50
-  },
   "1967-02": {
     "items": [
       {
@@ -16976,6 +16575,305 @@ export const AMENDMENTS_DATA = {
     ],
     "count": 13
   },
+  "2007-10": {
+    "items": [
+      {
+        "title": "Arcades",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-6/26-141",
+        "section_id": "26-141"
+      },
+      {
+        "title": "Existing public amenities for which floor area bonuses have been received",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-3/33-124",
+        "section_id": "33-124"
+      },
+      {
+        "title": "Floor Area Bonus for Front Yards",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-3/33-15",
+        "section_id": "33-15"
+      },
+      {
+        "title": "In certain other Commercial Districts",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-3/33-152",
+        "section_id": "33-152"
+      },
+      {
+        "title": "Special Provisions for Zoning Lots Divided by District Boundaries",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-3/33-16",
+        "section_id": "33-16"
+      },
+      {
+        "title": "Existing public amenities for which floor area bonuses have been received",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-4/34-113",
+        "section_id": "34-113"
+      },
+      {
+        "title": "Standards for Location, Design and Hours of Public Accessibility",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-41",
+        "section_id": "37-41"
+      },
+      {
+        "title": "Waiver of Requirements",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-44",
+        "section_id": "37-44"
+      },
+      {
+        "title": "REQUIREMENTS FOR PEDESTRIAN CIRCULATION SPACE",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-50",
+        "section_id": "37-50"
+      },
+      {
+        "title": "Modification of Design Standards of Pedestrian Circulation Spaces Within Existing\nBuildings",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-54",
+        "section_id": "37-54"
+      },
+      {
+        "title": "PUBLICLY ACCESSIBLE OPEN AREAS EXISTING PRIOR TO OCTOBER 17, 2007",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-60",
+        "section_id": "37-60"
+      },
+      {
+        "title": "Changes to Existing Publicly Accessible Open Areas",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-62",
+        "section_id": "37-62"
+      },
+      {
+        "title": "Elimination or reduction in size of non-bonused open area",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-621",
+        "section_id": "37-621"
+      },
+      {
+        "title": "Elimination or reduction in size of bonused open area",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-622",
+        "section_id": "37-622"
+      },
+      {
+        "title": "Nighttime closings",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-623",
+        "section_id": "37-623"
+      },
+      {
+        "title": "Kiosks and open air cafes",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-624",
+        "section_id": "37-624"
+      },
+      {
+        "title": "PUBLIC PLAZAS",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-70",
+        "section_id": "37-70"
+      },
+      {
+        "title": "Basic Design Criteria",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-71",
+        "section_id": "37-71"
+      },
+      {
+        "title": "Definitions",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-711",
+        "section_id": "37-711"
+      },
+      {
+        "title": "Restrictions on orientation",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-714",
+        "section_id": "37-714"
+      },
+      {
+        "title": "Requirements for major portions of public plazas",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-715",
+        "section_id": "37-715"
+      },
+      {
+        "title": "Requirements for minor portions of public plazas",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-716",
+        "section_id": "37-716"
+      },
+      {
+        "title": "Regulations for through block public plazas",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-717",
+        "section_id": "37-717"
+      },
+      {
+        "title": "Paving",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-718",
+        "section_id": "37-718"
+      },
+      {
+        "title": "Access and Circulation",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-72",
+        "section_id": "37-72"
+      },
+      {
+        "title": "Level of plaza",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-722",
+        "section_id": "37-722"
+      },
+      {
+        "title": "Circulation paths",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-723",
+        "section_id": "37-723"
+      },
+      {
+        "title": "Steps",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-725",
+        "section_id": "37-725"
+      },
+      {
+        "title": "Hours of access",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-727",
+        "section_id": "37-727"
+      },
+      {
+        "title": "Amenities",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-74",
+        "section_id": "37-74"
+      },
+      {
+        "title": "Litter receptacles",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-744",
+        "section_id": "37-744"
+      },
+      {
+        "title": "Bicycle parking",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-745",
+        "section_id": "37-745"
+      },
+      {
+        "title": "Drinking fountains",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-746",
+        "section_id": "37-746"
+      },
+      {
+        "title": "Public space signage",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-747",
+        "section_id": "37-747"
+      },
+      {
+        "title": "Additional amenities",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-748",
+        "section_id": "37-748"
+      },
+      {
+        "title": "Signs",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-75",
+        "section_id": "37-75"
+      },
+      {
+        "title": "Prohibition signs",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-7/37-752",
+        "section_id": "37-752"
+      },
+      {
+        "title": "Existing Public Amenities for which Floor Area Bonuses Have Been Received",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iv/chapter-3/43-15",
+        "section_id": "43-15"
+      },
+      {
+        "title": "Additional Floor Space of Public Parking Garages",
+        "date": "2007-10-29",
+        "url": "https://zoningresolution.planning.nyc.gov/article-vii/chapter-3/73-67",
+        "section_id": "73-67"
+      },
+      {
+        "title": "Elimination or reduction in size of bonused public amenities",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-vii/chapter-4/74-761",
+        "section_id": "74-761"
+      },
+      {
+        "title": "Existing plazas or other public amenities",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-231",
+        "section_id": "81-231"
+      },
+      {
+        "title": "Special provisions for zoning lots divided by district boundaries",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-232",
+        "section_id": "81-232"
+      },
+      {
+        "title": "Provisions for persons with disabilities",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-413",
+        "section_id": "81-413"
+      },
+      {
+        "title": "Retention of floor area bonus for plazas or other public spaces",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-542",
+        "section_id": "81-542"
+      },
+      {
+        "title": "General Provisions",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-81",
+        "section_id": "81-81"
+      },
+      {
+        "title": "Mandatory Off-street Relocation of a Subway Stair",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-2/82-12",
+        "section_id": "82-12"
+      },
+      {
+        "title": "Open Area Requirements in the Large-Scale Plan Subdistrict A",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-66",
+        "section_id": "93-66"
+      },
+      {
+        "title": "Modification of Rear Yard Regulations",
+        "date": "2007-10-29",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xi/chapter-5/115-22",
+        "section_id": "115-22"
+      },
+      {
+        "title": "Special Permit for Bulk Modifications on Blocks 86/72 and 403",
+        "date": "2007-10-17",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xi/chapter-7/117-56",
+        "section_id": "117-56"
+      }
+    ],
+    "count": 49
+  },
   "2008-04": {
     "items": [
       {
@@ -17105,23 +17003,6 @@ export const AMENDMENTS_DATA = {
       }
     ],
     "count": 3
-  },
-  "2020-02": {
-    "items": [
-      {
-        "title": "Applicability of this Chapter",
-        "date": "2020-02-27",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-8/28-01",
-        "section_id": "28-01"
-      },
-      {
-        "title": "Applicability of This Chapter",
-        "date": "2020-02-27",
-        "url": "https://zoningresolution.planning.nyc.gov/article-vii/chapter-8/78-03",
-        "section_id": "78-03"
-      }
-    ],
-    "count": 2
   },
   "1982-05": {
     "items": [
@@ -21080,6 +20961,17 @@ export const AMENDMENTS_DATA = {
       }
     ],
     "count": 13
+  },
+  "2020-02": {
+    "items": [
+      {
+        "title": "Applicability of This Chapter",
+        "date": "2020-02-27",
+        "url": "https://zoningresolution.planning.nyc.gov/article-vii/chapter-8/78-03",
+        "section_id": "78-03"
+      }
+    ],
+    "count": 1
   },
   "1969-12": {
     "items": [
