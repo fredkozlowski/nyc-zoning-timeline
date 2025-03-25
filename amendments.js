@@ -8578,13 +8578,13 @@ export const AMENDMENTS_DATA = {
         "section_id": "23-342"
       },
       {
-        "title": "Additional rear yard modifications",
+        "title": "Rear yard equivalent requirements\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-3/23-343",
         "section_id": "23-343"
       },
       {
-        "title": "Rear yard equivalent requirements",
+        "title": "Additional rear yard modifications\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-3/23-344",
         "section_id": "23-344"
@@ -8632,7 +8632,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "23-362"
       },
       {
-        "title": "Special rules for certain interior or through lots",
+        "title": "Special rules for certain interior or through lots\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-3/23-363",
         "section_id": "23-363"
@@ -8962,7 +8962,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "23-734"
       },
       {
-        "title": "Special yard, court and other area regulations",
+        "title": "Special yard, court and other area regulations\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-3/23-735",
         "section_id": "23-735"
@@ -12256,7 +12256,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "84-11"
       },
       {
-        "title": "Bulk Regulations",
+        "title": "Bulk Regulations\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-4/84-13",
         "section_id": "84-13"
@@ -12298,7 +12298,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "84-333"
       },
       {
-        "title": "Modifications of Bulk Regulations",
+        "title": "Modifications of Bulk Regulations\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-5/85-04",
         "section_id": "85-04"
@@ -12754,7 +12754,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "96-101"
       },
       {
-        "title": "Yard regulations",
+        "title": "Yard regulations\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-6/96-102",
         "section_id": "96-102"
@@ -12976,7 +12976,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "98-26"
       },
       {
-        "title": "Special Rear Yard Regulations",
+        "title": "Special Rear Yard Regulations\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-8/98-41",
         "section_id": "98-41"
@@ -14890,7 +14890,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "143-21"
       },
       {
-        "title": "Special Yard Regulations",
+        "title": "Special Yard Regulations\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-3/143-22",
         "section_id": "143-22"
@@ -16925,7 +16925,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "43-33"
       },
       {
-        "title": "Rear Yard Modifications",
+        "title": "Rear Yard Modifications\n\u25a0",
         "date": "2008-04-30",
         "url": "https://zoningresolution.planning.nyc.gov/article-vii/chapter-3/73-69",
         "section_id": "73-69"
