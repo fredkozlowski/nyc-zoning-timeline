@@ -4513,8 +4513,8 @@ export const AMENDMENTS_DATA = {
       {
         "title": "Use regulations in Manufacturing Districts with an A suffix",
         "date": "2024-06-06",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iv/chapter-2/42-326",
-        "section_id": "42-326"
+        "url": "https://zoningresolution.planning.nyc.gov/article-iv/chapter-2/42-316",
+        "section_id": "42-316"
       },
       {
         "title": "PERFORMANCE STANDARDS",
@@ -10978,12 +10978,6 @@ export const AMENDMENTS_DATA = {
         "section_id": "42-315"
       },
       {
-        "title": "Special Regulations Applicable to Certain Districts",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iv/chapter-2/42-32",
-        "section_id": "42-32"
-      },
-      {
         "title": "Applicability of This Chapter",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-iv/chapter-3/43-01",
@@ -14980,7 +14974,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "145-422"
       }
     ],
-    "count": 1179
+    "count": 1178
   },
   "2013-12": {
     "items": [
