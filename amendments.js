@@ -1609,12 +1609,6 @@ export const AMENDMENTS_DATA = {
         "section_id": "81-532"
       },
       {
-        "title": "Use Regulations Modified",
-        "date": "2011-02-02",
-        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-72",
-        "section_id": "81-72"
-      },
-      {
         "title": "Special Times Square signage requirements",
         "date": "2011-02-02",
         "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-732",
@@ -2803,7 +2797,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "131-52"
       }
     ],
-    "count": 318
+    "count": 317
   },
   "2013-05": {
     "items": [
@@ -4991,12 +4985,6 @@ export const AMENDMENTS_DATA = {
         "section_id": "43-303"
       },
       {
-        "title": "Maximum Height of Front Wall and Required Front Setbacks",
-        "date": "2024-06-06",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iv/chapter-3/43-43",
-        "section_id": "43-43"
-      },
-      {
         "title": "Alternate Front Setbacks",
         "date": "2024-06-06",
         "url": "https://zoningresolution.planning.nyc.gov/article-iv/chapter-3/43-44",
@@ -6461,12 +6449,6 @@ export const AMENDMENTS_DATA = {
         "section_id": "93-053"
       },
       {
-        "title": "Vehicle storage establishments",
-        "date": "2024-06-06",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-133",
-        "section_id": "93-133"
-      },
-      {
         "title": "Ground Floor Level Requirements",
         "date": "2024-06-06",
         "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-14",
@@ -7119,18 +7101,6 @@ export const AMENDMENTS_DATA = {
         "date": "2024-06-06",
         "url": "https://zoningresolution.planning.nyc.gov/article-xi/chapter-8/118-12",
         "section_id": "118-12"
-      },
-      {
-        "title": "Transient Hotels and Offices",
-        "date": "2024-06-06",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-11",
-        "section_id": "121-11"
-      },
-      {
-        "title": "M1-6 District in Subdistrict A-1",
-        "date": "2024-06-06",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-13",
-        "section_id": "121-13"
       },
       {
         "title": "SPECIAL USE REGULATIONS",
@@ -7883,156 +7853,234 @@ export const AMENDMENTS_DATA = {
         "section_id": "144-57"
       }
     ],
-    "count": 771
+    "count": 767
   },
-  "2025-05": {
+  "2025-08": {
     "items": [
       {
         "title": "Districts established",
-        "date": "2025-05-28",
+        "date": "2025-08-14",
         "url": "https://zoningresolution.planning.nyc.gov/article-i/chapter-1/11-122",
         "section_id": "11-122"
       },
       {
-        "title": "SPECIAL MIXED USE DISTRICTS SPECIFIED",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-3/123-90",
-        "section_id": "123-90"
+        "title": "Special use regulations",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-i/chapter-5/15-021",
+        "section_id": "15-021"
       },
       {
-        "title": "GENERAL PURPOSES",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-00",
-        "section_id": "146-00"
+        "title": "Use regulations in certain M1-1, M1-5 and M1-6 Districts",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iv/chapter-2/42-314",
+        "section_id": "42-314"
+      },
+      {
+        "title": "Maximum Height of Front Wall and Required Front Setbacks",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-iv/chapter-3/43-43",
+        "section_id": "43-43"
+      },
+      {
+        "title": "Definitions\n\u25a0",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-vi/chapter-6/66-11",
+        "section_id": "66-11"
+      },
+      {
+        "title": "Additional rules and limitations, conditions, findings and requirements",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-vi/chapter-6/66-513",
+        "section_id": "66-513"
+      },
+      {
+        "title": "Modification of Affordable Housing Fund payment options in the SoHo NoHo\nMixed Use District and the Special Midtown South Mixed Use District",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-vii/chapter-3/73-624",
+        "section_id": "73-624"
+      },
+      {
+        "title": "Covered Pedestrian Space",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-vii/chapter-4/74-85",
+        "section_id": "74-85"
+      },
+      {
+        "title": "Floor area bonus for covered pedestrian space",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-vii/chapter-4/74-851",
+        "section_id": "74-851"
+      },
+      {
+        "title": "Non-profit or voluntary hospitals in R9 or R10 Districts and certain Commercial\nDistricts",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-vii/chapter-4/74-904",
+        "section_id": "74-904"
+      },
+      {
+        "title": "Maximum floor area ratio for non-residential or mixed buildings",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-211",
+        "section_id": "81-211"
       },
       {
         "title": "General Provisions",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-01",
-        "section_id": "146-01"
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-71",
+        "section_id": "81-71"
       },
       {
-        "title": "District Plan and Map",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-02",
-        "section_id": "146-02"
+        "title": "Use Regulations Modified",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-72",
+        "section_id": "81-72"
+      },
+      {
+        "title": "General provisions\n\u25a0",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-741",
+        "section_id": "81-741"
+      },
+      {
+        "title": "Floor area bonus for rehabilitation of existing listed theaters",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-745",
+        "section_id": "81-745"
+      },
+      {
+        "title": "Special Floor Area Regulations",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-2/92-21",
+        "section_id": "92-21"
+      },
+      {
+        "title": "GENERAL PURPOSES",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-00",
+        "section_id": "93-00"
       },
       {
         "title": "Definitions",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-03",
-        "section_id": "146-03"
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-01",
+        "section_id": "93-01"
       },
       {
-        "title": "Applicability of the Mandatory Inclusionary Housing Program",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-04",
-        "section_id": "146-04"
+        "title": "Subdistricts and Subareas",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-04",
+        "section_id": "93-04"
       },
       {
-        "title": "Applicability of Article VI, Chapter 6",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-041",
-        "section_id": "146-041"
+        "title": "Certification for office use",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-131",
+        "section_id": "93-131"
       },
       {
-        "title": "Applicability of Article XII, Chapter 3",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-042",
-        "section_id": "146-042"
+        "title": "Transient hotels and offices in Subdistrict H",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-133",
+        "section_id": "93-133"
       },
       {
-        "title": "SPECIAL USE REGULATIONS",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-10",
-        "section_id": "146-10"
+        "title": "C6-4M Districts in Subdistrict H",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-134",
+        "section_id": "93-134"
       },
       {
-        "title": "Additional Conditions for Certain Uses",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-11",
-        "section_id": "146-11"
+        "title": "Vehicle storage establishments",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-135",
+        "section_id": "93-135"
       },
       {
-        "title": "Certification for an Alternate Means of Compliance for Mixed Buildings",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-12",
-        "section_id": "146-12"
+        "title": "Modification of Sign Regulations",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-16",
+        "section_id": "93-16"
       },
       {
-        "title": "Streetscape Regulations",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-13",
-        "section_id": "146-13"
+        "title": "Floor Area Regulations in Subdistricts B, C, D, E, F, G and H",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-22",
+        "section_id": "93-22"
+      },
+      {
+        "title": "District Improvement Fund Bonus",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-31",
+        "section_id": "93-31"
+      },
+      {
+        "title": "Height of Street Walls and Maximum Building Height Within Subdistrict H",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-43",
+        "section_id": "93-43"
+      },
+      {
+        "title": "Definitions",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-81",
+        "section_id": "93-81"
+      },
+      {
+        "title": "HARASSMENT",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-90",
+        "section_id": "93-90"
+      },
+      {
+        "title": "Demolition",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-91",
+        "section_id": "93-91"
+      },
+      {
+        "title": "Harassment and cure",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-6/96-107",
+        "section_id": "96-107"
+      },
+      {
+        "title": "SUPPLEMENTAL REGULATIONS",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-8/98-70",
+        "section_id": "98-70"
+      },
+      {
+        "title": "GENERAL PURPOSES",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-00",
+        "section_id": "121-00"
+      },
+      {
+        "title": "USE REGULATIONS",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-10",
+        "section_id": "121-10"
+      },
+      {
+        "title": "SIGN REGULATIONS",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-20",
+        "section_id": "121-20"
       },
       {
         "title": "SPECIAL BULK REGULATIONS",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-20",
-        "section_id": "146-20"
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-30",
+        "section_id": "121-30"
       },
       {
-        "title": "Floor Area Regulations",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-21",
-        "section_id": "146-21"
-      },
-      {
-        "title": "Floor area modifications for certain paired districts",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-211",
-        "section_id": "146-211"
-      },
-      {
-        "title": "Special Yard Regulations",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-22",
-        "section_id": "146-22"
-      },
-      {
-        "title": "Special Height and Setback Regulations",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-23",
-        "section_id": "146-23"
-      },
-      {
-        "title": "Street wall modifications",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-231",
-        "section_id": "146-231"
-      },
-      {
-        "title": "Other height and setback modifications",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-232",
-        "section_id": "146-232"
-      },
-      {
-        "title": "SPECIAL OFF-STREET PARKING REGULATIONS",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-30",
-        "section_id": "146-30"
-      },
-      {
-        "title": "Accessory Off-street Parking Spaces for Non-residential Uses",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-31",
-        "section_id": "146-31"
-      },
-      {
-        "title": "SPECIAL APPROVALS",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-40",
-        "section_id": "146-40"
-      },
-      {
-        "title": "Authorization for a Public Plaza",
-        "date": "2025-05-28",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-41",
-        "section_id": "146-41"
+        "title": "SPECIAL MIXED USE DISTRICTS SPECIFIED",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-3/123-90",
+        "section_id": "123-90"
       }
     ],
-    "count": 24
+    "count": 37
   },
   "2013-12": {
     "items": [
@@ -8454,12 +8502,6 @@ export const AMENDMENTS_DATA = {
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-i/chapter-5/15-01",
         "section_id": "15-01"
-      },
-      {
-        "title": "Special use regulations",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-i/chapter-5/15-021",
-        "section_id": "15-021"
       },
       {
         "title": "Special bulk regulations for certain pre-existing dwelling units and joint living-\nwork quarters for artists",
@@ -11414,12 +11456,6 @@ export const AMENDMENTS_DATA = {
         "section_id": "42-313"
       },
       {
-        "title": "Use regulations in certain M1-1, M1-5 and M1-6 Districts",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iv/chapter-2/42-314",
-        "section_id": "42-314"
-      },
-      {
         "title": "Use regulations in M1-5B Districts",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-iv/chapter-2/42-315",
@@ -12014,12 +12050,6 @@ export const AMENDMENTS_DATA = {
         "section_id": "64-623"
       },
       {
-        "title": "Definitions\n\u25a0",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-vi/chapter-6/66-11",
-        "section_id": "66-11"
-      },
-      {
         "title": "Special open space, lot coverage and yard modifications",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-vi/chapter-6/66-232",
@@ -12060,12 +12090,6 @@ export const AMENDMENTS_DATA = {
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-vi/chapter-6/66-32",
         "section_id": "66-32"
-      },
-      {
-        "title": "Additional rules and limitations, conditions, findings and requirements",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-vi/chapter-6/66-513",
-        "section_id": "66-513"
       },
       {
         "title": "Reduction of Parking Spaces",
@@ -12126,12 +12150,6 @@ export const AMENDMENTS_DATA = {
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-vii/chapter-3/73-623",
         "section_id": "73-623"
-      },
-      {
-        "title": "Modification of Affordable Housing Fund payment options in the SoHo NoHo\nMixed Use District",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-vii/chapter-3/73-624",
-        "section_id": "73-624"
       },
       {
         "title": "Residential use in C4-1 Districts in Staten Island",
@@ -12216,18 +12234,6 @@ export const AMENDMENTS_DATA = {
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-vii/chapter-4/74-84",
         "section_id": "74-84"
-      },
-      {
-        "title": "Covered Pedestrian Space",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-vii/chapter-4/74-85",
-        "section_id": "74-85"
-      },
-      {
-        "title": "Floor area bonus for covered pedestrian space",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-vii/chapter-4/74-851",
-        "section_id": "74-851"
       },
       {
         "title": "Design requirements for covered pedestrian spaces",
@@ -12476,12 +12482,6 @@ export const AMENDMENTS_DATA = {
         "section_id": "81-068"
       },
       {
-        "title": "Maximum floor area ratio for non-residential or mixed buildings",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-211",
-        "section_id": "81-211"
-      },
-      {
         "title": "Special provisions for transfer of development rights from landmark sites\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-212",
@@ -12576,12 +12576,6 @@ export const AMENDMENTS_DATA = {
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-653",
         "section_id": "81-653"
-      },
-      {
-        "title": "General provisions\n\u25a0",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-741",
-        "section_id": "81-741"
       },
       {
         "title": "Transfer of development rights from listed theaters",
@@ -12962,12 +12956,6 @@ export const AMENDMENTS_DATA = {
         "section_id": "92-20"
       },
       {
-        "title": "Special Floor Area Regulations",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-2/92-21",
-        "section_id": "92-21"
-      },
-      {
         "title": "Mandatory Front Building Walls Along Certain Street Lines\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-2/92-22",
@@ -12990,12 +12978,6 @@ export const AMENDMENTS_DATA = {
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-2/92-31",
         "section_id": "92-31"
-      },
-      {
-        "title": "Definitions",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-01",
-        "section_id": "93-01"
       },
       {
         "title": "Applicability of Article I, Chapter 3",
@@ -13028,12 +13010,6 @@ export const AMENDMENTS_DATA = {
         "section_id": "93-11"
       },
       {
-        "title": "Certification for office use",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-131",
-        "section_id": "93-131"
-      },
-      {
         "title": "Authorization for office use",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-132",
@@ -13044,12 +13020,6 @@ export const AMENDMENTS_DATA = {
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-21",
         "section_id": "93-21"
-      },
-      {
-        "title": "Floor Area Regulations in Subdistricts B, C, D, E, F and G",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-22",
-        "section_id": "93-22"
       },
       {
         "title": "Maximum floor area ratio in the Farley Corridor Subdistrict B",
@@ -13088,12 +13058,6 @@ export const AMENDMENTS_DATA = {
         "section_id": "93-226"
       },
       {
-        "title": "District Improvement Fund Bonus",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-31",
-        "section_id": "93-31"
-      },
-      {
         "title": "Floor Area Regulations in the Phase 2 Hudson Boulevard and Park",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-32",
@@ -13122,12 +13086,6 @@ export const AMENDMENTS_DATA = {
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-821",
         "section_id": "93-821"
-      },
-      {
-        "title": "HARASSMENT",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-90",
-        "section_id": "93-90"
       },
       {
         "title": "General Provisions",
@@ -13212,12 +13170,6 @@ export const AMENDMENTS_DATA = {
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-6/96-106",
         "section_id": "96-106"
-      },
-      {
-        "title": "Harassment and cure",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-6/96-107",
-        "section_id": "96-107"
       },
       {
         "title": "Off-street parking regulations",
@@ -14396,24 +14348,6 @@ export const AMENDMENTS_DATA = {
         "section_id": "119-22"
       },
       {
-        "title": "C6-4M Districts in Subdistrict A-2",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-12",
-        "section_id": "121-12"
-      },
-      {
-        "title": "Maximum Permitted Floor Area Within Subdistrict A-2",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-41",
-        "section_id": "121-41"
-      },
-      {
-        "title": "Height of Street Walls and Maximum Building Height Within Subdistrict A-2\n\u25a0",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-42",
-        "section_id": "121-42"
-      },
-      {
         "title": "SPECIAL BULK REGULATIONS",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-2/122-30",
@@ -15392,7 +15326,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "145-422"
       }
     ],
-    "count": 1176
+    "count": 1157
   },
   "2023-12": {
     "items": [
@@ -16638,18 +16572,6 @@ export const AMENDMENTS_DATA = {
         "section_id": "36-53"
       },
       {
-        "title": "GENERAL PURPOSES",
-        "date": "2010-04-14",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-00",
-        "section_id": "93-00"
-      },
-      {
-        "title": "Modification of Sign Regulations",
-        "date": "2010-04-14",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-16",
-        "section_id": "93-16"
-      },
-      {
         "title": "Permitted Parking",
         "date": "2010-04-14",
         "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-82",
@@ -16692,7 +16614,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "126-233"
       }
     ],
-    "count": 13
+    "count": 11
   },
   "2007-10": {
     "items": [
@@ -18619,12 +18541,6 @@ export const AMENDMENTS_DATA = {
       {
         "title": "General Provisions",
         "date": "2021-10-07",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-01",
-        "section_id": "121-01"
-      },
-      {
-        "title": "General Provisions",
-        "date": "2021-10-07",
         "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-2/122-02",
         "section_id": "122-02"
       },
@@ -18701,7 +18617,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "142-09"
       }
     ],
-    "count": 68
+    "count": 67
   },
   "2019-12": {
     "items": [
@@ -19155,12 +19071,6 @@ export const AMENDMENTS_DATA = {
         "section_id": "98-65"
       },
       {
-        "title": "SUPPLEMENTAL REGULATIONS",
-        "date": "2010-10-27",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-8/98-70",
-        "section_id": "98-70"
-      },
-      {
         "title": "GENERAL PURPOSES",
         "date": "2010-10-13",
         "url": "https://zoningresolution.planning.nyc.gov/article-xi/chapter-1/111-00",
@@ -19179,7 +19089,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "111-30"
       }
     ],
-    "count": 8
+    "count": 7
   },
   "1971-01": {
     "items": [
@@ -21387,17 +21297,6 @@ export const AMENDMENTS_DATA = {
     ],
     "count": 1
   },
-  "2006-09": {
-    "items": [
-      {
-        "title": "General Provisions",
-        "date": "2006-09-13",
-        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-71",
-        "section_id": "81-71"
-      }
-    ],
-    "count": 1
-  },
   "2017-10": {
     "items": [
       {
@@ -21420,17 +21319,6 @@ export const AMENDMENTS_DATA = {
       }
     ],
     "count": 3
-  },
-  "2021-02": {
-    "items": [
-      {
-        "title": "Floor area bonus for rehabilitation of existing listed theaters",
-        "date": "2021-02-25",
-        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-745",
-        "section_id": "81-745"
-      }
-    ],
-    "count": 1
   },
   "1969-04": {
     "items": [
@@ -21730,12 +21618,6 @@ export const AMENDMENTS_DATA = {
         "section_id": "93-03"
       },
       {
-        "title": "Subdistricts and Subareas",
-        "date": "2014-04-29",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-04",
-        "section_id": "93-04"
-      },
-      {
         "title": "Ninth Avenue Rail Yard",
         "date": "2014-04-29",
         "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-522",
@@ -21886,7 +21768,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "93-78"
       }
     ],
-    "count": 27
+    "count": 26
   },
   "2005-01": {
     "items": [
@@ -21997,89 +21879,6 @@ export const AMENDMENTS_DATA = {
       }
     ],
     "count": 1
-  },
-  "2018-12": {
-    "items": [
-      {
-        "title": "Definitions",
-        "date": "2018-12-20",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-81",
-        "section_id": "93-81"
-      },
-      {
-        "title": "Demolition",
-        "date": "2018-12-20",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-3/93-91",
-        "section_id": "93-91"
-      },
-      {
-        "title": "GENERAL PURPOSES",
-        "date": "2018-12-20",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-00",
-        "section_id": "121-00"
-      },
-      {
-        "title": "District Plan",
-        "date": "2018-12-20",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-02",
-        "section_id": "121-02"
-      },
-      {
-        "title": "Subdistricts",
-        "date": "2018-12-20",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-03",
-        "section_id": "121-03"
-      },
-      {
-        "title": "SPECIAL USE REGULATIONS",
-        "date": "2018-12-20",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-10",
-        "section_id": "121-10"
-      },
-      {
-        "title": "SIGN REGULATIONS",
-        "date": "2018-12-20",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-20",
-        "section_id": "121-20"
-      },
-      {
-        "title": "SPECIAL BULK REGULATIONS WITHIN SUBDISTRICT A-1",
-        "date": "2018-12-20",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-30",
-        "section_id": "121-30"
-      },
-      {
-        "title": "Maximum Permitted Floor Area Within Subdistrict A-1",
-        "date": "2018-12-20",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-31",
-        "section_id": "121-31"
-      },
-      {
-        "title": "Height of Street Walls and Maximum Building Height Area Within Subdistrict A-1",
-        "date": "2018-12-20",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-32",
-        "section_id": "121-32"
-      },
-      {
-        "title": "SPECIAL BULK REGULATIONS WITHIN SUBDISTRICT A-2",
-        "date": "2018-12-20",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-40",
-        "section_id": "121-40"
-      },
-      {
-        "title": "PARKING PROVISIONS FOR SUBDISTRICT A-2",
-        "date": "2018-12-20",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-50",
-        "section_id": "121-50"
-      },
-      {
-        "title": "ANTI-HARASSMENT AND DEMOLITION REGULATIONS IN SUBDISTRICT A-2",
-        "date": "2018-12-20",
-        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-60",
-        "section_id": "121-60"
-      }
-    ],
-    "count": 13
   },
   "1973-10": {
     "items": [
@@ -24846,6 +24645,143 @@ export const AMENDMENTS_DATA = {
         "date": "2018-08-08",
         "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-2/142-64",
         "section_id": "142-64"
+      }
+    ],
+    "count": 22
+  },
+  "2025-05": {
+    "items": [
+      {
+        "title": "GENERAL PURPOSES",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-00",
+        "section_id": "146-00"
+      },
+      {
+        "title": "General Provisions",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-01",
+        "section_id": "146-01"
+      },
+      {
+        "title": "District Plan and Map",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-02",
+        "section_id": "146-02"
+      },
+      {
+        "title": "Definitions",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-03",
+        "section_id": "146-03"
+      },
+      {
+        "title": "Applicability of the Mandatory Inclusionary Housing Program",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-04",
+        "section_id": "146-04"
+      },
+      {
+        "title": "Applicability of Article VI, Chapter 6",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-041",
+        "section_id": "146-041"
+      },
+      {
+        "title": "Applicability of Article XII, Chapter 3",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-042",
+        "section_id": "146-042"
+      },
+      {
+        "title": "SPECIAL USE REGULATIONS",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-10",
+        "section_id": "146-10"
+      },
+      {
+        "title": "Additional Conditions for Certain Uses",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-11",
+        "section_id": "146-11"
+      },
+      {
+        "title": "Certification for an Alternate Means of Compliance for Mixed Buildings",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-12",
+        "section_id": "146-12"
+      },
+      {
+        "title": "Streetscape Regulations",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-13",
+        "section_id": "146-13"
+      },
+      {
+        "title": "SPECIAL BULK REGULATIONS",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-20",
+        "section_id": "146-20"
+      },
+      {
+        "title": "Floor Area Regulations",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-21",
+        "section_id": "146-21"
+      },
+      {
+        "title": "Floor area modifications for certain paired districts",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-211",
+        "section_id": "146-211"
+      },
+      {
+        "title": "Special Yard Regulations",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-22",
+        "section_id": "146-22"
+      },
+      {
+        "title": "Special Height and Setback Regulations",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-23",
+        "section_id": "146-23"
+      },
+      {
+        "title": "Street wall modifications",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-231",
+        "section_id": "146-231"
+      },
+      {
+        "title": "Other height and setback modifications",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-232",
+        "section_id": "146-232"
+      },
+      {
+        "title": "SPECIAL OFF-STREET PARKING REGULATIONS",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-30",
+        "section_id": "146-30"
+      },
+      {
+        "title": "Accessory Off-street Parking Spaces for Non-residential Uses",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-31",
+        "section_id": "146-31"
+      },
+      {
+        "title": "SPECIAL APPROVALS",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-40",
+        "section_id": "146-40"
+      },
+      {
+        "title": "Authorization for a Public Plaza",
+        "date": "2025-05-28",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-6/146-41",
+        "section_id": "146-41"
       }
     ],
     "count": 22
