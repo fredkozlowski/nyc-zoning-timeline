@@ -8056,10 +8056,58 @@ export const AMENDMENTS_DATA = {
         "section_id": "121-00"
       },
       {
+        "title": "General Provisions",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-01",
+        "section_id": "121-01"
+      },
+      {
+        "title": "Definitions",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-02",
+        "section_id": "121-02"
+      },
+      {
+        "title": "District Plan",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-03",
+        "section_id": "121-03"
+      },
+      {
+        "title": "Applicability of the Mandatory Inclusionary Housing Program",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-04",
+        "section_id": "121-04"
+      },
+      {
+        "title": "Applicability of Article XII, Chapter 3",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-05",
+        "section_id": "121-05"
+      },
+      {
         "title": "USE REGULATIONS",
         "date": "2025-08-14",
         "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-10",
         "section_id": "121-10"
+      },
+      {
+        "title": "Regulations for M1-9A Districts",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-11",
+        "section_id": "121-11"
+      },
+      {
+        "title": "Regulations for Use Group VI",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-12",
+        "section_id": "121-12"
+      },
+      {
+        "title": "Streetscape Regulations",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-13",
+        "section_id": "121-13"
       },
       {
         "title": "SIGN REGULATIONS",
@@ -8074,13 +8122,73 @@ export const AMENDMENTS_DATA = {
         "section_id": "121-30"
       },
       {
+        "title": "Floor Area Exemption for Public Schools",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-31",
+        "section_id": "121-31"
+      },
+      {
+        "title": "Yard and Open Area Regulations",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-32",
+        "section_id": "121-32"
+      },
+      {
+        "title": "Rear yard equivalent",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-321",
+        "section_id": "121-321"
+      },
+      {
+        "title": "Minimum distance between buildings",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-322",
+        "section_id": "121-322"
+      },
+      {
+        "title": "Height and Setback Regulations",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-33",
+        "section_id": "121-33"
+      },
+      {
+        "title": "Street wall regulations",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-331",
+        "section_id": "121-331"
+      },
+      {
+        "title": "Base height regulations",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-332",
+        "section_id": "121-332"
+      },
+      {
+        "title": "Additional Bulk Modifications",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-34",
+        "section_id": "121-34"
+      },
+      {
+        "title": "Transfer of development rights from landmarks",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-341",
+        "section_id": "121-341"
+      },
+      {
+        "title": "Transfer of development rights from Theater Subdistrict",
+        "date": "2025-08-14",
+        "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-1/121-342",
+        "section_id": "121-342"
+      },
+      {
         "title": "SPECIAL MIXED USE DISTRICTS SPECIFIED",
         "date": "2025-08-14",
         "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-3/123-90",
         "section_id": "123-90"
       }
     ],
-    "count": 37
+    "count": 55
   },
   "2013-12": {
     "items": [
@@ -8636,7 +8744,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "21-13"
       },
       {
-        "title": "R3-2, R4, R4B, R5, R6, R7, R8, R9, R10, R11 and R12 \u2014 General Residence Districts",
+        "title": "R3-2, R4, R4B, R5, R6, R7, R8, R9, R10, R11 and R12 \u2014 General Residence Districts\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-1/21-14",
         "section_id": "21-14"
@@ -11060,7 +11168,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "35-362"
       },
       {
-        "title": "APPLICABILITY OF DENSITY REGULATIONS",
+        "title": "APPLICABILITY OF DENSITY REGULATIONS\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-5/35-40",
         "section_id": "35-40"
@@ -15308,7 +15416,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "145-211"
       },
       {
-        "title": "Height and Setback Regulations\n\u25a0",
+        "title": "Height and Setback Regulations",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-xiv/chapter-5/145-23",
         "section_id": "145-23"
