@@ -1057,7 +1057,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "35-30"
       },
       {
-        "title": "Location and width of curb cuts accessing residential parking spaces in certain\ndistricts\n\u25a0",
+        "title": "Location and width of curb cuts accessing residential parking spaces in certain\ndistricts",
         "date": "2011-02-02",
         "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-6/36-532",
         "section_id": "36-532"
@@ -6737,7 +6737,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "101-734"
       },
       {
-        "title": "Modification of Bulk Regulations for Certain Buildings on Irregular Sites",
+        "title": "Modification of Bulk Regulations for Certain Buildings on Irregular Sites\n\u25a0",
         "date": "2024-06-06",
         "url": "https://zoningresolution.planning.nyc.gov/article-x/chapter-1/101-82",
         "section_id": "101-82"
@@ -11348,7 +11348,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "36-027"
       },
       {
-        "title": "General Provisions",
+        "title": "General Provisions\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-6/36-21",
         "section_id": "36-21"
@@ -11678,7 +11678,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "44-20"
       },
       {
-        "title": "General Provisions",
+        "title": "General Provisions\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-iv/chapter-4/44-21",
         "section_id": "44-21"
@@ -13568,7 +13568,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "101-20"
       },
       {
-        "title": "Special Floor Area Regulations",
+        "title": "Special Floor Area Regulations\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-x/chapter-1/101-21",
         "section_id": "101-21"
