@@ -1231,7 +1231,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "72-41"
       },
       {
-        "title": "For residences",
+        "title": "For residences\n\u25a0",
         "date": "2011-02-02",
         "url": "https://zoningresolution.planning.nyc.gov/article-vii/chapter-3/73-451",
         "section_id": "73-451"
@@ -2401,7 +2401,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "112-07"
       },
       {
-        "title": "Special Bulk Regulations for Community Facilities",
+        "title": "Special Bulk Regulations for Community Facilities\n\u25a0",
         "date": "2011-02-02",
         "url": "https://zoningresolution.planning.nyc.gov/article-xi/chapter-3/113-11",
         "section_id": "113-11"
@@ -7013,7 +7013,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "123-20"
       },
       {
-        "title": "Modifications to M1 Use Regulations",
+        "title": "Modifications to M1 Use Regulations\n\u25a0",
         "date": "2024-06-06",
         "url": "https://zoningresolution.planning.nyc.gov/article-xii/chapter-3/123-21",
         "section_id": "123-21"
@@ -8833,7 +8833,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "22-134"
       },
       {
-        "title": "Use Group III \u2013 additional provisions for parking requirement category",
+        "title": "Use Group III \u2013 additional provisions for parking requirement category\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-2/22-135",
         "section_id": "22-135"
@@ -9739,7 +9739,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "24-31"
       },
       {
-        "title": "Permitted Obstructions in Required Yards or Rear Yard Equivalents",
+        "title": "Permitted Obstructions in Required Yards or Rear Yard Equivalents\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-4/24-33",
         "section_id": "24-33"
@@ -10009,7 +10009,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "25-021"
       },
       {
-        "title": "Applicability of regulations in R7-3 Districts",
+        "title": "Applicability of regulations to non-profit hospital staff dwellings\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-5/25-022",
         "section_id": "25-022"
@@ -10025,12 +10025,6 @@ export const AMENDMENTS_DATA = {
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-5/25-024",
         "section_id": "25-024"
-      },
-      {
-        "title": "Applicability of regulations to non-profit hospital staff dwellings",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ii/chapter-5/25-025",
-        "section_id": "25-025"
       },
       {
         "title": "General Provisions",
@@ -10687,7 +10681,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "32-133"
       },
       {
-        "title": "Use Group III \u2013 additional provisions for parking requirement category",
+        "title": "Use Group III \u2013 additional provisions for parking requirement category\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-2/32-135",
         "section_id": "32-135"
@@ -10771,7 +10765,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "32-657"
       },
       {
-        "title": "Applicability of This Chapter",
+        "title": "Applicability of This Chapter\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-3/33-01",
         "section_id": "33-01"
@@ -10879,7 +10873,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "33-43"
       },
       {
-        "title": "In C1 or C2 Districts with bulk governed by surrounding Residence District",
+        "title": "In C1 or C2 Districts with bulk governed by surrounding Residence District\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-3/33-431",
         "section_id": "33-431"
@@ -11347,7 +11341,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "36-023"
       },
       {
-        "title": "Applicability of regulations in R7-3 Districts",
+        "title": "Applicability of regulations to non-profit hospital staff dwellings\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-6/36-024",
         "section_id": "36-024"
@@ -11363,12 +11357,6 @@ export const AMENDMENTS_DATA = {
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-6/36-026",
         "section_id": "36-026"
-      },
-      {
-        "title": "Applicability of regulations to non-profit hospital staff dwellings\n\u25a0",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-iii/chapter-6/36-027",
-        "section_id": "36-027"
       },
       {
         "title": "General Provisions\n\u25a0",
@@ -11875,7 +11863,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "62-321"
       },
       {
-        "title": "Floor area regulations for R6 through R12 Districts",
+        "title": "Floor area regulations for R6 through R12 Districts\n\u25a0",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-vi/chapter-2/62-322",
         "section_id": "62-322"
@@ -15337,7 +15325,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "145-422"
       }
     ],
-    "count": 1136
+    "count": 1134
   },
   "2023-12": {
     "items": [
@@ -18041,7 +18029,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "134-211"
       },
       {
-        "title": "Floor Area Regulations in the Southern Subdistrict",
+        "title": "Floor Area Regulations in the Southern Subdistrict\n\u25a0",
         "date": "2021-05-27",
         "url": "https://zoningresolution.planning.nyc.gov/article-xiii/chapter-4/134-212",
         "section_id": "134-212"
@@ -19183,6 +19171,12 @@ export const AMENDMENTS_DATA = {
         "section_id": "62-95"
       },
       {
+        "title": "Special permit to modify sign and frontage regulations on small zoning lots",
+        "date": "2025-11-25",
+        "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-734",
+        "section_id": "81-734"
+      },
+      {
         "title": "GENERAL PURPOSES",
         "date": "2025-11-12",
         "url": "https://zoningresolution.planning.nyc.gov/article-xi/chapter-7/117-00",
@@ -19681,7 +19675,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "146-211"
       }
     ],
-    "count": 85
+    "count": 86
   },
   "2014-03": {
     "items": [
@@ -20951,7 +20945,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "81-20"
       },
       {
-        "title": "Floor Area Ratio Regulations",
+        "title": "Floor Area Ratio Regulations\n\u25a0",
         "date": "2017-08-09",
         "url": "https://zoningresolution.planning.nyc.gov/article-viii/chapter-1/81-21",
         "section_id": "81-21"
