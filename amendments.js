@@ -13369,12 +13369,6 @@ export const AMENDMENTS_DATA = {
         "section_id": "97-411"
       },
       {
-        "title": "Maximum floor area ratio in the Park Avenue Hub Subdistrict",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-7/97-412",
-        "section_id": "97-412"
-      },
-      {
         "title": "Maximum floor area ratio in Subdistrict A",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-7/97-413",
@@ -13399,16 +13393,10 @@ export const AMENDMENTS_DATA = {
         "section_id": "97-431"
       },
       {
-        "title": "Height and setback regulations in the Core Subdistrict and in areas outside of a subdistrict",
+        "title": "Height and setback regulations in the Core Subdistrict and in areas outside of a\nsubdistrict",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-7/97-432",
         "section_id": "97-432"
-      },
-      {
-        "title": "Height and setback regulations in the Park Avenue Hub Subdistrict",
-        "date": "2024-12-05",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-7/97-433",
-        "section_id": "97-433"
       },
       {
         "title": "Height and setback regulations in Subdistrict A\n\u25a0",
@@ -13417,7 +13405,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "97-434"
       },
       {
-        "title": "Accessory Off-street Commercial Parking Within the Core Subdistrict and Areas Outside of a Subdistrict",
+        "title": "Accessory Off-street Commercial Parking Within the Core Subdistrict and Areas\nOutside of a Subdistrict",
         "date": "2024-12-05",
         "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-7/97-51",
         "section_id": "97-51"
@@ -15325,7 +15313,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "145-422"
       }
     ],
-    "count": 1134
+    "count": 1132
   },
   "2023-12": {
     "items": [
@@ -19877,22 +19865,10 @@ export const AMENDMENTS_DATA = {
         "section_id": "87-73"
       },
       {
-        "title": "Establishment of Subdistricts",
-        "date": "2017-12-19",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-7/97-04",
-        "section_id": "97-04"
-      },
-      {
         "title": "Applicability of District Regulations",
         "date": "2017-12-19",
         "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-7/97-06",
         "section_id": "97-06"
-      },
-      {
-        "title": "Applicability of Special Transit Land Use District Regulations\n\u25a0",
-        "date": "2017-12-19",
-        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-7/97-061",
-        "section_id": "97-061"
       },
       {
         "title": "Definitions",
@@ -19919,7 +19895,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "97-44"
       }
     ],
-    "count": 35
+    "count": 33
   },
   "2021-11": {
     "items": [
@@ -20312,12 +20288,6 @@ export const AMENDMENTS_DATA = {
         "section_id": "63-30"
       },
       {
-        "title": "Ownership\n\u25a0",
-        "date": "2021-12-15",
-        "url": "https://zoningresolution.planning.nyc.gov/article-vii/chapter-4/74-742",
-        "section_id": "74-742"
-      },
-      {
         "title": "Modification of sign regulations in Subarea K",
         "date": "2021-12-09",
         "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-8/98-151",
@@ -20588,7 +20558,7 @@ export const AMENDMENTS_DATA = {
         "section_id": "144-56"
       }
     ],
-    "count": 50
+    "count": 49
   },
   "2001-10": {
     "items": [
@@ -20893,6 +20863,41 @@ export const AMENDMENTS_DATA = {
       }
     ],
     "count": 1
+  },
+  "2025-12": {
+    "items": [
+      {
+        "title": "Ownership\n\u25a0",
+        "date": "2025-12-18",
+        "url": "https://zoningresolution.planning.nyc.gov/article-vii/chapter-4/74-742",
+        "section_id": "74-742"
+      },
+      {
+        "title": "Establishment of Subdistricts",
+        "date": "2025-12-18",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-7/97-04",
+        "section_id": "97-04"
+      },
+      {
+        "title": "Applicability of Special Transit Land Use District Regulations\n\u25a0",
+        "date": "2025-12-18",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-7/97-061",
+        "section_id": "97-061"
+      },
+      {
+        "title": "Maximum floor area ratio in the Park Avenue Hub Subdistrict",
+        "date": "2025-12-18",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-7/97-412",
+        "section_id": "97-412"
+      },
+      {
+        "title": "Height and setback regulations in the Park Avenue Hub Subdistrict and in\nSubdistrict B",
+        "date": "2025-12-18",
+        "url": "https://zoningresolution.planning.nyc.gov/article-ix/chapter-7/97-433",
+        "section_id": "97-433"
+      }
+    ],
+    "count": 5
   },
   "2017-08": {
     "items": [
