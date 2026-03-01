@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zoning Resolution Amendments (1960-2025)</title>
+    <title>Zoning Resolution Amendments (1960-2026)</title>
     <style>
         /* Previous root variables and base styles remain the same */
         :root {
@@ -325,7 +325,7 @@
                     <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
                     <polyline points="9 22 9 12 15 12 15 22"></polyline>
                 </svg>
-                <h1 class="card-title">Zoning Resolution Amendments <span class="dates">(1960-2025)</span></h1>
+                <h1 class="card-title">Zoning Resolution Amendments <span class="dates">(1960-2026)</span></h1>
             </div>
             <div class="graph-container">
                 <div class="graph-with-months">
@@ -416,7 +416,7 @@
 
             labelsDiv.innerHTML = '';
 
-            const decades = [1960, 1970, 1980, 1990, 2000, 2010, 2020, 2025];
+            const decades = [1960, 1970, 1980, 1990, 2000, 2010, 2020, 2026];
             const startYear = 1960;
             const isDesktop = window.innerWidth > 1200;
             const labelsRect = labelsDiv.getBoundingClientRect();
@@ -463,7 +463,7 @@
 
         function generateGraph() {
             const graph = document.getElementById('graph');
-            const currentYear = 2025;
+            const currentYear = 2026;
             const startYear = 1960;
 
             for (let year = startYear; year <= currentYear; year++) {
