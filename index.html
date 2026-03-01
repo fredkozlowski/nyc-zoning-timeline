@@ -186,14 +186,16 @@
         }
 
         .year-labels {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
+            position: relative;
+            height: 25px;
             color: #6b7280;
             font-size: 0.875rem;
-            padding: 2px 0;
-            text-align: right;
             pointer-events: none;
+        }
+
+        .year-labels span {
+            position: absolute;
+            white-space: nowrap;
         }
 
         .year-column {
@@ -295,12 +297,9 @@
             }
 
             .year-labels {
-                position: relative;
-                right: 0;
-                flex-direction: column;
-                justify-content: space-between;
-                padding: 0.5rem 0;
-                margin-top: 0.5rem;
+                height: auto;
+                width: 35px;
+                margin-left: 4px;
             }
 
             .year-column {
@@ -339,16 +338,7 @@
                         <div class="graph" id="graph"></div>
                     </div>
                 </div>
-                <div class="year-labels">
-                    <span>1960</span>
-                    <span>1970</span>
-                    <span>1980</span>
-                    <span>1990</span>
-                    <span>2000</span>
-                    <span>2010</span>
-                    <span>2020</span>
-                    <span>2025</span>
-                </div>
+                <div class="year-labels" id="yearLabels"></div>
             </div>
         </div>
 
@@ -377,7 +367,9 @@
         async function init() {
             try {
                 generateGraph();
-                
+                positionYearLabels();
+                window.addEventListener('resize', positionYearLabels);
+
                 // Select December 1961 by default
                 const defaultCell = document.querySelector('[data-year="1961"][data-month="12"]');
                 if (defaultCell) {
@@ -417,6 +409,41 @@
                     '<p>Error loading amendments data. Please try again later.</p>';
             }
         }
+        function positionYearLabels() {
+            const labelsDiv = document.getElementById('yearLabels');
+            const graphEl = document.getElementById('graph');
+            const yearColumns = graphEl.querySelectorAll('.year-column');
+
+            labelsDiv.innerHTML = '';
+
+            const decades = [1960, 1970, 1980, 1990, 2000, 2010, 2020, 2025];
+            const startYear = 1960;
+            const isDesktop = window.innerWidth > 1200;
+            const labelsRect = labelsDiv.getBoundingClientRect();
+
+            decades.forEach(year => {
+                const colIndex = year - startYear;
+                const col = yearColumns[colIndex];
+                if (!col) return;
+
+                const colRect = col.getBoundingClientRect();
+                const span = document.createElement('span');
+                span.textContent = year;
+
+                if (isDesktop) {
+                    const centerX = colRect.left + colRect.width / 2 - labelsRect.left;
+                    span.style.left = centerX + 'px';
+                    span.style.transform = 'translateX(-50%)';
+                } else {
+                    const centerY = colRect.top + colRect.height / 2 - labelsRect.top;
+                    span.style.top = centerY + 'px';
+                    span.style.transform = 'translateY(-50%)';
+                }
+
+                labelsDiv.appendChild(span);
+            });
+        }
+
         function getColorClass(count) {
             if (count === 0) return 'month-0';
             
