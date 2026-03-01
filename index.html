@@ -147,6 +147,29 @@
         .card-header {
             display: flex;
             flex-direction: row;
+            align-items: center;
+        }
+
+        .color-legend {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            margin-left: auto;
+            font-size: 0.75rem;
+            color: #6b7280;
+            flex-shrink: 0;
+        }
+
+        .color-legend-pair {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+        }
+
+        .color-legend-cell {
+            width: 12px;
+            height: 12px;
+            border-radius: 2px;
         }
 
         .graph-container {
@@ -285,6 +308,15 @@
                 display: block;
             }
 
+            .card-header {
+                flex-wrap: wrap;
+            }
+
+            .color-legend {
+                margin-left: 0;
+                margin-top: 4px;
+            }
+
             .y-axis {
                 flex-direction: row;
                 justify-content: space-between;
@@ -326,6 +358,24 @@
                     <polyline points="9 22 9 12 15 12 15 22"></polyline>
                 </svg>
                 <h1 class="card-title">Zoning Resolution Amendments <span class="dates">(1960-2026)</span></h1>
+                <div class="color-legend">
+                    <div class="color-legend-pair">
+                        <div class="color-legend-cell" style="background-color: var(--color-0);"></div>
+                        <span>0</span>
+                    </div>
+                    <div class="color-legend-pair">
+                        <div class="color-legend-cell" style="background-color: var(--color-3);"></div>
+                        <span>1-10</span>
+                    </div>
+                    <div class="color-legend-pair">
+                        <div class="color-legend-cell" style="background-color: var(--color-6);"></div>
+                        <span>10-100</span>
+                    </div>
+                    <div class="color-legend-pair">
+                        <div class="color-legend-cell" style="background-color: var(--color-9);"></div>
+                        <span>100+</span>
+                    </div>
+                </div>
             </div>
             <div class="graph-container">
                 <div class="graph-with-months">
