@@ -17,6 +17,7 @@
             --color-7: #15803d;
             --color-8: #166534;
             --color-9: #14532d;
+            --color-10: #000000;
         }
 
         * {
@@ -275,6 +276,7 @@
         .month-7 { background-color: var(--color-7); }
         .month-8 { background-color: var(--color-8); }
         .month-9 { background-color: var(--color-9); }
+        .month-10 { background-color: var(--color-10); }
 
         @media (max-width: 1200px) {
             body {
@@ -373,7 +375,11 @@
                     </div>
                     <div class="color-legend-pair">
                         <div class="color-legend-cell" style="background-color: var(--color-9);"></div>
-                        <span>100+</span>
+                        <span>100-1000</span>
+                    </div>
+                    <div class="color-legend-pair">
+                        <div class="color-legend-cell" style="background-color: var(--color-10);"></div>
+                        <span>1000+</span>
                     </div>
                 </div>
             </div>
@@ -496,18 +502,15 @@
 
         function getColorClass(count) {
             if (count === 0) return 'month-0';
-            
-            // Using log10 scale from 1 to 800
-            const maxCount = 800;
+            // Extreme-spike tier for historic events (e.g. City of Yes, Dec 2024 = 1126).
+            if (count >= 1000) return 'month-10';
+
+            // Log10 scale from 1 to 1000 into color bins 1..9.
+            const maxCount = 1000;
             const logMax = Math.log10(maxCount);
-            
-            // Calculate the log value of the count, bounded by maxCount
-            const boundedCount = Math.min(count, maxCount);
-            const logValue = Math.log10(boundedCount);
-            
-            // Scale to 1-9 range (we already handled 0 case above)
-            const colorIndex = Math.ceil((logValue / logMax) * 8) + 1;
-            
+            const logValue = Math.log10(count);
+            const colorIndex = Math.min(9, Math.ceil((logValue / logMax) * 8) + 1);
+
             return `month-${colorIndex}`;
         }
 
