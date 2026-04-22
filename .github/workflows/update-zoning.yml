@@ -8,7 +8,10 @@ on:
 jobs:
   update-zoning-data:
     runs-on: ubuntu-22.04
-    
+    env:
+      # Opt into Node 24 early; Node 20 is forced out of GH Actions 2026-06-02.
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -81,6 +84,10 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_PROJECT_NAME: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
         run: |
-          curl -fSsL -X POST "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/pages/projects/${CLOUDFLARE_PROJECT_NAME}/deployments" \
+          # --fail-with-body surfaces Cloudflare's JSON error payload instead of
+          # eating it on non-2xx (plain -f suppresses the body).
+          curl -sSL --fail-with-body -X POST \
             -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
-            -H "Content-Type: application/json"
+            -H "Content-Type: application/json" \
+            -w "\nHTTP %{http_code}\n" \
+            "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/pages/projects/${CLOUDFLARE_PROJECT_NAME}/deployments"
