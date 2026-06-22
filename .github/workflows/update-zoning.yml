@@ -77,17 +77,5 @@ jobs:
           git config --global user.email 'actions@github.com'
           git add amendments.js
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update zoning amendments data" && git push)
-
-      - name: Deploy to Cloudflare Pages
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          CLOUDFLARE_PROJECT_NAME: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
-        run: |
-          # --fail-with-body surfaces Cloudflare's JSON error payload instead of
-          # eating it on non-2xx (plain -f suppresses the body).
-          curl -sSL --fail-with-body -X POST \
-            -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
-            -H "Content-Type: application/json" \
-            -w "\nHTTP %{http_code}\n" \
-            "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/pages/projects/${CLOUDFLARE_PROJECT_NAME}/deployments"
+          # Cloudflare Pages is Git-connected to this repo, so the push above
+          # auto-deploys the production branch. No explicit API deploy needed.
